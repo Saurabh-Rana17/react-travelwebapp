@@ -21,7 +21,7 @@ function HeroSection() {
       <h1>UTTARAKHAND AWAITS</h1>
       <p> Your Gateway to Himalayan Adventures</p>
 
-      <form className='search'>
+      {/* <form className='search'>
         <div className='search-container'>
           <label >Where are you going?</label>
           <input id='location' type='text' placeholder='Search your location' />
@@ -47,7 +47,7 @@ function HeroSection() {
             Explore
           </button>
         </div>
-      </form>
+      </form> */}
     </div>
   )
 }

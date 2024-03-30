@@ -23,6 +23,8 @@
   background-repeat: no-repeat;
   color: #fff;
   font-size: 100px;
+  display: flex;
+  flex-direction: column;
 }
 
 /*
@@ -128,6 +130,7 @@ h4 {
 .form-modal__container {
   margin: 0 0.5rem;
 }
+
 .form-modal__wrapper {
   display: flex;
   justify-content: center;
@@ -146,7 +149,7 @@ h4 {
   border-radius: 10px 0 0 10px;
 }
 
-.sign-up > img {
+.sign-up>img {
   object-fit: cover;
   width: auto;
   height: auto;
@@ -165,9 +168,9 @@ h4 {
   justify-content: center;
 }
 
-.sign-up__container > h2 {
- font-size: 3rem;
- margin-bottom: 2rem;
+.sign-up__container>h2 {
+  font-size: 3rem;
+  margin-bottom: 2rem;
 }
 
 .sign-up__form {
@@ -176,13 +179,13 @@ h4 {
   width: 90%;
 }
 
-.sign-up__form > label {
+.sign-up__form>label {
   font-size: 1.2rem;
   margin-bottom: 0.3rem;
 }
 
 
-.sign-up__form > input {
+.sign-up__form>input {
   margin-bottom: 1rem;
   padding: 0.6rem;
 }

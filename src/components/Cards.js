@@ -5,7 +5,7 @@ import HiddenCardItem from './HiddenCard';
 
 function Cards() {
   return (
-    <div className='cards'>
+    <div id='cards' className='cards'>
       <h1>Special Beauty of Uttarakhand</h1>
       <div className='cards__container'>
         <div className='cards__wrapper'>

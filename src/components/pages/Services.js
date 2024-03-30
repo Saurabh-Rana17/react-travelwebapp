@@ -5,11 +5,17 @@ import Footer from '../Footer';
 import '../../App.css';
 import '../Cards.css';
 import './Services.css';
+import { MouseScroll } from '../MouseScroll';
 
 export default function Services() {
   return (
     <>
-      <h1 className='services'>Tour Packages</h1>
+      <div className='services'>
+        <div>
+          Tour Packages
+        </div>
+        <MouseScroll />
+      </div>
       <section className='heading'>
         <h2>Activities we think you would enjoy</h2>
         <div className='services-container'>

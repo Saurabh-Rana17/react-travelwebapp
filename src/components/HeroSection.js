@@ -3,8 +3,12 @@ import React from 'react'
 import { useNavigate } from 'react-router-dom';
 import '../App.css';
 import './HeroSection.css';
+import { MouseScroll } from './MouseScroll';
 
 function HeroSection() {
+
+
+
   let navigate = useNavigate();
 
   const routeChange = () => {
@@ -14,13 +18,12 @@ function HeroSection() {
 
 
   return (
-    <div className='hero-container'>
+    <div id='hero' className='hero-container'>
       <img src={`images/uk-2-min.jpg`} alt="UK Travel" className='uk-hero'></img>
 
-      {/* <video src='/images/uk-1.mp4' autoPlay loop muted /> */}
       <h1>UTTARAKHAND AWAITS</h1>
       <p> Your Gateway to Himalayan Adventures</p>
-
+      <MouseScroll />
       {/* <form className='search'>
         <div className='search-container'>
           <label >Where are you going?</label>

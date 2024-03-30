@@ -15,7 +15,7 @@ function HeroSection() {
 
   return (
     <div className='hero-container'>
-      <img src={`images/uk-2.jpg`} alt="UK Travel" className='uk-hero'></img>
+      <img src={`images/uk-2-min.jpg`} alt="UK Travel" className='uk-hero'></img>
 
       {/* <video src='/images/uk-1.mp4' autoPlay loop muted /> */}
       <h1>UTTARAKHAND AWAITS</h1>

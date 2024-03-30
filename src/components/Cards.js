@@ -1,46 +1,74 @@
 import React from 'react';
 import CardItem from './CardItem';
 import './Cards.css';
+import HiddenCardItem from './HiddenCard';
 
 function Cards() {
   return (
     <div className='cards'>
-      <h1>Check out these epic destinations!</h1>
+      <h1>Special Beauty of Uttarakhand</h1>
       <div className='cards__container'>
         <div className='cards__wrapper'>
           <ul className='cards__items'>
             <CardItem
-              src="kedarnath.jpg"
+              src="panch-prayag.avif"
               text="Explore the hidden waterfall deep inside the Amazon Jungle"
-              label="Adventure"
+              label="Panch Prayag"
               path="/services/activity"
             ></CardItem>
             <CardItem
-              src="nainital.jpg"
+              src="panch-kedar.jpg"
               text="Travel through the Islands of Bali in a Private Cruise"
-              label="Luxury"
+              label="Panch Kedar"
+              path="/services/activity"
+            ></CardItem>
+            <CardItem
+              src="uttarakhand-village.jpg"
+              text="Set a Sail in the Atlantic ocean visiting Uncharted Waters"
+              label="Village Tour"
               path="/services/activity"
             ></CardItem>
           </ul>
           <ul className='cards__items'>
             <CardItem
-              src="chardham.jpg"
+              src="surkanda-devi-temple.jpg"
               text="Ride through the Sahara Desert on a guided camel tour"
-              label="Adrenaline"
+              label="Siddha Peeth"
               path="/services/activity"
             ></CardItem>
             <CardItem
-              src="mussoorie.webp"
+              src="auli.webp"
               text="Experience Football on Top of the Himalayan Mountains"
-              label="Adventure"
+              label="Auli"
               path="/services/activity"
             ></CardItem>
             <CardItem
-              src="haridwar.webp"
+              src="chopta-bugyal.webp"
               text="Set a Sail in the Atlantic ocean visiting Uncharted Waters"
-              label="Mystery"
+              label="Chopta Bugyal"
               path="/services/activity"
             ></CardItem>
+          </ul>
+          <ul className='cards__items'>
+            <CardItem
+              src="kedarkantha-trek.jpg"
+              text="Ride through the Sahara Desert on a guided camel tour"
+              label="Kedarkantha Trek"
+              path="/services/activity"
+            ></CardItem>
+            <CardItem
+              src="munsyari.jpg"
+              text="Experience Football on Top of the Himalayan Mountains"
+              label="Munsyari"
+              path="/services/activity"
+            ></CardItem>
+
+            <HiddenCardItem
+              src="mussoorie.webp"
+              text="hidden"
+              label="hidden"
+              path="/services/activity"
+            />
 
           </ul>
         </div>
